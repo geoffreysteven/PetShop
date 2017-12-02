@@ -1,6 +1,12 @@
 {
-  "port": 8080,	
+  "port": 8080,
   "server": {
-    "baseDir": ["./src", "./build/contracts"]
-  }
+    "baseDir": ["./src", "./build/contracts"],
+	"open": false
+  },
+  "ui": {
+    "port": 8081
+   }
+  
 }
+
